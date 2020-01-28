@@ -1,0 +1,111 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage{helvet}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+% \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Julian M. Lehrer}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+% \moveleft.5\hoffset\centerline{628 Crown Road, Santa Cruz, CA 95064}
+\moveleft.5\hoffset\centerline{}
+\moveleft.5\hoffset\centerline{707-490-9354 $\mid$ \textcolor{blue}{\href{https://julianlehrer.me}{julianlehrer.me}} $\mid$ jmlehrer@ucsc.edu}
+
+\begin{resume}
+  
+\section{EDUCATION}
+	\textbf{University of California, Santa Cruz} \hfill {\sl Fall 2018 -  Spring 2021 (expected)} \\
+	B.A. Computational Mathematics, Minor in Computer Science 
+    % Maybe add B.A. CS?
+    
+    
+    \begin{ncolumn}{2}
+                \textbf{Selected coursework:    } & \\
+                Multivariate Calculus I\&II & Proof Theory \\
+                Algorithms \& Abstract Data Types  & Discrete Mathematics \\
+                Linear Algebra & Probability Theory \\
+                Machine Learning &  Statistical Models\\
+                % Abstract Algebra I &  Computational Models \\
+                % Probability Theory & Number Theory \\
+                % Multivariable Calculus I-II & Discrete Mathematics \\
+                % Linear Algebra & Formal Logic \\
+                % Ordinary Differential Equations & Probability Theory \\
+                % Data Structures & Computer Systems and Assembly Language \\           
+    \end{ncolumn}
+
+    
+\renewcommand\labelitemi{{\boldmath$\cdot$}}
+
+\setlist{topsep=3pt}
+\section{PROJECTS}
+    \textbf{Project Portfolio} $\mid$ \textcolor{blue}{\href{https://github.com/jlehrer1}{https://github.com/jlehrer1}} \vspace {2mm} \\
+    \textbf{Transparency Project (1st Place CruzHacks 2020)}
+    \begin{itemize}
+        \item A fully interactive website that brings clarity to the political process through interactive data visualizations. Build with Plot.ly and Dash, and hosted live on GCloud.
+    \end{itemize}\vspace*{-8pt}
+    \textbf{iOS Air Quality App}
+    \begin{itemize}
+        \item Use Swift 4 and the OpenWeatherMap pollution API to retrieve air quality information at the user's location
+        \item Created a classification system from the weather.gov AQI to determine the level of caution that should be taken outdoors
+    \end{itemize}\vspace*{-8pt}
+	\textbf{Personal Portfolio Website}
+	\begin{itemize}[]
+	    \item Used HTML, CSS, Boostrap and JQuery to create my personal portfolio website
+	    \item Created custom loading animations using CSS
+	\end{itemize}\vspace*{-8pt}
+    \textbf{Company Sentiment using NLP}
+    \begin{itemize}
+        \item Used the article titles from a Google News search fed through the Textblob NLP model to analyze public sentiment of a company
+    \end{itemize}\vspace*{-8pt}
+
+\section{EXPERIENCE} 
+	\textbf{Piscine Student} $\mid$ \textit{School 42 | Fremont, CA} \hfill {\sl Summer 2018}
+	\begin{itemize}
+	    \item Participated in the four week intensive C camp
+	    \item Recreated essential functions from the C standard library
+	    \item Held code review sessions
+	\end{itemize}\vspace*{-10pt}
+% 	\textbf{Sales Associate} $\mid$ \textit{Little Apple Treats | Sebastopol, CA} \hfill
+% 	{\sl 2008 | Fall 2019}
+% 	\begin{itemize}
+% 	    \item Worked on the family farm since I was seven years old, both with plant starts, the greenhouses, and the food business
+% 	    \item Managed the stall at the San Francisco Ferry Plaza Market, supervised loading and unloading the van, and provided service to customers throughout the day
+% 	\end{itemize}
+
+\section{EXTRA\\CURRICULARS}
+    \textbf{Vice President} $\mid$ \textit{Data Science Slugs | Santa Cruz, CA} \hfill {\sl Winter 2020 - Current}
+    \begin{itemize}
+        \item 
+    \end{itemize}
+
+\section{SKILLS} 
+    \textbf{Programming}: Python (scikit-learn, pandas, numpy), Swift, Java, C, C++,\\Matplotlib, Plot.ly, Dash \\
+    \textbf{Theory}: Data structures, statistical models, machine learning, deep learning \\
+    \textbf{Software}: AWS Elastic Beanstalk, Git, Bash
+    % Linux & bash rolled together. Vim implied in Linux IMO
+
+\end{resume}
+\end{document}
+
+% Co-founded a student organization dedicated to preparing students for a career in data science. Led recruitment drives, growing membership from 10 to over 50. Designed and led coding and statistics workshops (e.g data cleaning in Python, basic statistics for machine learning).
+% Organized and led work on multiple Kaggle competitions, including one in which we placed in the top 5% globally, developing in the process experience with teamwork, software engineering and cloud deployment.
