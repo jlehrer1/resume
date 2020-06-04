@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  22 MAY 2020 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 JUN 2020 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/jmlehrer/Documents/Projects/resume/latex/resume.tex
-(/Users/jmlehrer/Documents/Projects/resume/latex/resume.tex
+**/Users/jmlehrer/Documents/Projects/resume/resume.tex
+(/Users/jmlehrer/Documents/Projects/resume/resume.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (/Users/jmlehrer/Documents/Projects/resume/latex/res.cls
+L3 programming layer <2020-03-06> (/Users/jmlehrer/Documents/Projects/resume/res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -233,7 +233,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count266
 \l__pdf_internal_box=\box48
-) (/Users/jmlehrer/Documents/Projects/resume/latex/resume.aux)
+) (/Users/jmlehrer/Documents/Projects/resume/resume.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
@@ -297,14 +297,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
  6418 strings out of 480608
- 96222 string characters out of 5903631
+ 96168 string characters out of 5903631
  365235 words of memory out of 5000000
  22213 multiletter control sequences out of 15000+600000
  538098 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,49p,274b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,49p,268b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/jmlehrer/Documents/Projects/resume/latex/resume.pdf (1 page, 92172 bytes).
+Output written on /Users/jmlehrer/Documents/Projects/resume/resume.pdf (1 page, 92172 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream

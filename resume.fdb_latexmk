@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1590181823 "/Users/jmlehrer/Documents/Projects/resume/latex/resume.tex" "/Users/jmlehrer/Documents/Projects/resume/latex/resume.pdf" "resume" 1590182002
-  "/Users/jmlehrer/Documents/Projects/resume/latex/resume.aux" 1590009309 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/jmlehrer/Documents/Projects/resume/latex/resume.tex" 1590182001 7567 e690c2024f253aada8739dc99bd60cba ""
+["pdflatex"] 1591312749 "/Users/jmlehrer/Documents/Projects/resume/resume.tex" "/Users/jmlehrer/Documents/Projects/resume/resume.pdf" "resume" 1591312750
+  "/Users/jmlehrer/Documents/Projects/resume/resume.aux" 1590009309 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/jmlehrer/Documents/Projects/resume/resume.tex" 1591312749 7567 e690c2024f253aada8739dc99bd60cba ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -80,9 +80,9 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "res.cls" 1590009309 25065 00878584ba637ae375b57ce6f6d58323 ""
   "resume.aux" 1590009309 8 a94a2480d3289e625eea47cd1b285758 ""
-  "resume.tex" 1590182001 7567 e690c2024f253aada8739dc99bd60cba ""
+  "resume.tex" 1591312749 7567 e690c2024f253aada8739dc99bd60cba ""
   (generated)
-  "/Users/jmlehrer/Documents/Projects/resume/latex/resume.pdf"
+  "/Users/jmlehrer/Documents/Projects/resume/resume.log"
+  "/Users/jmlehrer/Documents/Projects/resume/resume.pdf"
   "resume.log"
   "resume.pdf"
-  "/Users/jmlehrer/Documents/Projects/resume/latex/resume.log"
