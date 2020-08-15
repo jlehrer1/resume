@@ -2,4 +2,5 @@
 transcript_dec_19.pdf
 __latexindent_temp.tex
 *.fdb_latexmk
-*.synctex.gz 
+*.synctex.gz
+*.log
