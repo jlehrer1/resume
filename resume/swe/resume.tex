@@ -1,0 +1,99 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage{helvet}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+% \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\Huge\bf Julian M. Lehrer}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+% \moveleft.5\hoffset\centerline{628 Crown Road, Santa Cruz, CA 95064}
+\moveleft.5\hoffset\centerline{}
+\moveleft.5\hoffset\centerline{707-490-9354 $\mid$ \textcolor{blue}{\href{https://julianlehrer.me}{julianlehrer.me}} $\mid$ jmlehrer@ucsc.edu}
+
+\begin{resume}
+  
+\section{EDUCATION}
+	\textbf{University of California, Santa Cruz} \hfill {\sl Fall 2018 -  Spring 2021 (expected)} \\
+	B.A. Computational Mathematics, Minor in Computer Science 
+
+    \renewcommand\labelitemi{{\boldmath$\cdot$}}
+
+\setlist{topsep=3pt}
+
+\section{EXPERIENCE} 
+    % \textbf{Software Engineering Intern} $\mid$ \textit{Valassis Digital |
+    % Austin, TX} \hfill {\sl Summer 2021, hopefully}
+    % \begin{itemize}
+    %     \item Rewrote legacy data pipeline into Spark
+    % \end{itemize} \vspace*{-10pt}
+    \textbf{Data Science Intern} $\mid$ \textit{Blackthorn Therapeutics | San Francisco, CA} \hfill {\sl Summer 2020}
+    \begin{itemize}
+        \item Used statistical modeling to research the effects of isolation on depression and anxiety
+        \item Wrote interpretable models in Python (scikit-learn) to be used in future clinical analysis
+        \item Generated a research report and presentation for the company 
+    \end{itemize} \vspace*{-10pt}
+
+   \textbf{Data Science Intern} $\mid$ \textit{Startup Genome | San Francisco, CA} \hfill {\sl Spring 2020}
+    \begin{itemize}
+        % \item Built analytics pipeline for understanding how COVID-19 affects global startup ecosystems
+        \item Created deep learning model with Python (Pandas, Tensorflow, NLTK) to classify startup sectors from funding data 
+        % \item Collaborated on data engineering pipeline to prepare data for clients
+        \item Wrote data engineering pipeline to generate and visualize funding metrics for clients
+    \end{itemize} \vspace*{-10pt}
+    % \textbf{Vice President} $\mid$ \textit{Data Science @ SC | Santa Cruz, CA} \hfill {\sl Winter 2020 - Current}
+    % \begin{itemize}
+    %     \item Organized outreach events, presented on Machine Learning techniques
+    %     \item Created the UCSC Statistics Reading group
+    % \end{itemize} \vspace*{-10pt}
+\section{PROJECTS}
+    \textbf{Project Portfolio} $\mid$ \textcolor{blue}{\href{https://github.com/jlehrer1/Projects}{https://github.com/jlehrer1/Projects}} \vspace {2mm} \\
+    \textbf{Transparency Project (1st Place CruzHacks 2020)}
+    \begin{itemize}
+        \item A fully interactive website that brings clarity to the political process through interactive data visualizations. Build with Plot.ly and Dash, and hosted live on GCloud.
+    \end{itemize}\vspace*{-8pt}
+    \textbf{SQLtoPandas}
+    \begin{itemize}
+        \item Python package to use SQL querying on Pandas DataFrames without creating a SQL database
+        \item Built with Python (pandas, numpy, sqlite3) published on PyPi
+        % \item Created a classification system from the weather.gov AQI to determine the level of caution that should be taken outdoors
+    \end{itemize}\vspace*{-8pt}
+
+    \textbf{InstantEDA}
+    \begin{itemize}
+        \item Python package to instantly generate common exploratory data plots without cleaning your DataFrame
+        \item Built with Python (pandas, numpy, plotly), published on PyPi
+        % \item Created a classification system from the weather.gov AQI to determine the level of caution that should be taken outdoors
+    \end{itemize}\vspace*{-8pt}
+    \textbf{DrivenData: DengueAI}
+    \begin{itemize}
+        \item Used a combination of engineered lagged features and fourier models to achieve a top 11.8\% score globally (so far) on the DrivenData Dengue fever prediction contest
+        \item Built with Pandas, Scikit-learn and Tensorflow
+        % \item Created data visualizations using Plotly
+    \end{itemize}\vspace*{-8pt}
+\section{SKILLS}
+    \textbf{Programming}: Python (scikit-learn, Pandas, Numpy, Tensorflow, Plotly), Swift, SQL, Java, C, C++, Matlab\\
+    \textbf{Theory}: Statistical models, machine learning, deep learning, numerical optimization, numerical methods \\
+    \textbf{Software}: AWS Elastic Beanstalk, AWS Lambda, Git, Bash 
+\end{resume}
+\end{document}
